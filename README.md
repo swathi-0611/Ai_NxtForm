@@ -24,36 +24,6 @@ A MERN starter for an AI-assisted form builder inspired by Typeform.
 - `client` - React app
 - `server` - Express API
 
-## Quick start
-
-1. Install dependencies:
-
-```bash
-npm install
-```
-
-2. Add environment variables in `server/.env`:
-
-```bash
-PORT=5000
-CLIENT_URL=http://localhost:5173
-MONGODB_URI=mongodb://127.0.0.1:27017/typeform-clone
-GROQ_API_KEY=
-```
-
-3. Run the app:
-
-```bash
-npm run dev
-```
-
-Frontend: `http://localhost:5173`
-
-Backend: `http://localhost:5000`
-
-## AI generation
-
-If `GROQ_API_KEY` is present, the server will try to generate a schema using a chat model. If not, it falls back to a local rules-based generator so the app still works during development.
 
 ## Core flows
 
